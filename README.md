@@ -31,8 +31,9 @@ Claude reads the `description` of every available skill and loads the full body 
 |---|---|---|
 | [`coding-patterns`](engineering/.claude/skills/coding-patterns/SKILL.md) | Engineering | 17 patterns for application code that survives maintenance and growth — guard clauses, boundaries, bounded concurrency, idempotency, durable jobs, backpressure, additive contract changes |
 | [`well-designed-api-patterns`](engineering/.claude/skills/well-designed-api-patterns/SKILL.md) | Engineering | API design that stays predictable, backward-compatible, resilient, and self-documenting — versioning, deprecation, error contracts, pagination |
+| [`humanizer`](writing/humanizer/SKILL.md) | Writing | Removes the tells that make prose read as machine-written — inflated claims, formulaic structure, hedging, assistant voice, uniform rhythm — without changing meaning |
 
-More domains planned: **writing**, **process flow**, and others as they get built.
+More domains planned: **process flow**, and others as they get built.
 
 ---
 
