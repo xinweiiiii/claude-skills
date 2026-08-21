@@ -31,6 +31,8 @@ Claude reads the `description` of every available skill and loads the full body 
 |---|---|---|
 | [`coding-patterns`](engineering/.claude/skills/coding-patterns/SKILL.md) | Engineering | 17 patterns for application code that survives maintenance and growth — guard clauses, boundaries, bounded concurrency, idempotency, durable jobs, backpressure, additive contract changes |
 | [`well-designed-api-patterns`](engineering/.claude/skills/well-designed-api-patterns/SKILL.md) | Engineering | API design that stays predictable, backward-compatible, resilient, and self-documenting — versioning, deprecation, error contracts, pagination |
+| [`secure-coding`](engineering/.claude/skills/secure-coding/SKILL.md) | Engineering | 10 habits that remove whole categories of vulnerability before testing ever runs — trust boundaries, narrow commands, resource-scoped authorization, safe data access, concurrency-safe writes, database constraints, data minimization, fail-closed errors, secret lifecycles |
+| [`ui-component-structure`](engineering/.claude/skills/ui-component-structure/SKILL.md) | Engineering | Feature-first React folder convention with co-location rules, plus scaffold, audit, and update modes for keeping component trees consistent |
 | [`humanizer`](writing/humanizer/SKILL.md) | Writing | Removes the tells that make prose read as machine-written — inflated claims, formulaic structure, hedging, assistant voice, uniform rhythm — without changing meaning |
 
 More domains planned: **process flow**, and others as they get built.
@@ -77,7 +79,11 @@ claude-skills/
         └── skills/
             ├── coding-patterns/
             │   └── SKILL.md
-            └── well-designed-api-patterns/
+            ├── well-designed-api-patterns/
+            │   └── SKILL.md
+            ├── secure-coding/
+            │   └── SKILL.md
+            └── ui-component-structure/
                 └── SKILL.md
 ```
 
