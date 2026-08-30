@@ -2,7 +2,7 @@
 
 A central collection of custom [Claude Code](https://claude.com/claude-code) skills — reusable instruction sets that teach Claude how to approach a specific kind of work.
 
-The goal is one place to find, share, and reuse skills instead of everyone rebuilding the same prompt from scratch. Take the ones you want, leave the rest.
+The goal is one place to find, share, and reuse skills. Take the ones you want, leave the rest.
 
 ---
 
@@ -34,6 +34,7 @@ Claude reads the `description` of every available skill and loads the full body 
 | [`secure-coding`](engineering/.claude/skills/secure-coding/SKILL.md) | Engineering | 10 habits that remove whole categories of vulnerability before testing ever runs — trust boundaries, narrow commands, resource-scoped authorization, safe data access, concurrency-safe writes, database constraints, data minimization, fail-closed errors, secret lifecycles |
 | [`ui-component-structure`](engineering/.claude/skills/ui-component-structure/SKILL.md) | Engineering | Feature-first React folder convention with co-location rules, plus scaffold, audit, and update modes for keeping component trees consistent |
 | [`structure-database`](engineering/.claude/skills/structure-database/SKILL.md) | Engineering | 10 habits that keep a relational schema cheap at a hundred times today's data — time-ordered keys, copy-on-write history, proven indexes, constraints vs. business rules, staged migrations |
+| [`map-codebase`](engineering/.claude/skills/map-codebase/SKILL.md) | Engineering | Technique for building a working mental model of an unfamiliar repository — entry points, one traced flow at a time, data before services, config as documentation, git history as detective, scoped to the task |
 | [`humanizer`](writing/humanizer/SKILL.md) | Writing | Removes the tells that make prose read as machine-written — inflated claims, formulaic structure, hedging, assistant voice, uniform rhythm — without changing meaning |
 
 More domains planned: **process flow**, and others as they get built.
@@ -86,7 +87,9 @@ claude-skills/
             │   └── SKILL.md
             ├── ui-component-structure/
             │   └── SKILL.md
-            └── structure-database/
+            ├── structure-database/
+            │   └── SKILL.md
+            └── map-codebase/
                 └── SKILL.md
 ```
 
